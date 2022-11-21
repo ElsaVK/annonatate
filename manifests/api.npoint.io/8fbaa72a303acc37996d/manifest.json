@@ -1,0 +1,96 @@
+---
+---
+{
+  "@id": "https://elsavk.github.io/annonatate/manifests/api.npoint.io/8fbaa72a303acc37996d/manifest.json",
+  "logo": "https://gallica.bnf.fr/mbImage/logos/logo-bnf.png",
+  "@type": "sc:Manifest",
+  "label": "M\u00e9diath\u00e8que Andr\u00e9 Malraux, Strasbourg. MS 15",
+  "license": "https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica",
+  "related": "https://gallica.bnf.fr/ark:/12148/btv1b10110846m",
+  "seeAlso": [
+    "http://oai.bnf.fr/oai2/OAIHandler?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:bnf.fr:gallica/ark:/12148/btv1b10110846m"
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "metadata": [
+    {
+      "label": "Repository",
+      "value": "M\u00e9diath\u00e8que Andr\u00e9 Malraux"
+    },
+    {
+      "label": "Digitised by",
+      "value": "Biblioth\u00e8que nationale de France"
+    },
+    {
+      "label": "Source Images",
+      "value": "https://gallica.bnf.fr/ark:/12148/btv1b10110846m"
+    },
+    {
+      "label": "Metadata Source",
+      "value": "http://oai.bnf.fr/oai2/OAIHandler?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:bnf.fr:gallica/ark:/12148/btv1b10110846m"
+    },
+    {
+      "label": "Shelfmark",
+      "value": "M\u00e9diath\u00e8que Andr\u00e9 Malraux, Strasbourg. MS 15"
+    },
+    {
+      "label": "Title",
+      "value": "Reisen Beschreibung von America welche das Hochl\u00f6bliche Regiment von Zweybr\u00fccken hat gemacht zu Wasser und zu Land vom Jahr 1780 bis 84. Geschehen zu Strassburg den 5... anno 1787"
+    },
+    {
+      "label": "Date",
+      "value": "1701-1800"
+    },
+    {
+      "label": "Language",
+      "value": "allemand"
+    },
+    {
+      "label": "Format",
+      "value": "251 p. + 14 d\u00e9pliants. - 215 x 180 mm. - Rel. demi-toile"
+    },
+    {
+      "label": "Relation",
+      "value": "Notice du catalogue : http://archivesetmanuscrits.bnf.fr/ark:/12148/cc125522f/cN65615"
+    },
+    {
+      "label": "Type",
+      "value": "Manuscrit"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10110846m/sequence/default",
+      "@type": "sc:Sequence",
+      "label": "Current Page Order",
+      "canvases": [
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10110846m/canvas/f5",
+          "@type": "sc:Canvas",
+          "label": "NP",
+          "width": 5576,
+          "height": 3473,
+          "images": [
+            {
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10110846m/canvas/f5",
+              "@type": "oa:Annotation",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10110846m/f5/pct:0,0,50,100/,1500/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg"
+              },
+              "motivation": "sc:painting"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://gallica.bnf.fr/ark:/12148/btv1b10110846m/f5.thumbnail"
+          }
+        }
+      ]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://gallica.bnf.fr/ark:/12148/btv1b10110846m.thumbnail"
+  },
+  "attribution": "Biblioth\u00e8que nationale de France",
+  "description": "Reisen Beschreibung von America welche das Hochl\u00f6bliche Regiment von Zweybr\u00fccken hat gemacht zu Wasser und zu Land vom Jahr 1780 bis 84. Geschehen zu Strassburg den 5... anno 1787"
+}
